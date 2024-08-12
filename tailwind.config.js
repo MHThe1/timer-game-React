@@ -17,6 +17,7 @@ export default {
       },
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
+        handjet: ['Handjet', 'sans-serif'],
       },
       // Adding custom utilities for font smoothing
       extend: {
