@@ -5,6 +5,7 @@ import TimerChallenge from './components/TimerChallenge';
 import Footer from './components/Footer';
 import { useState, useRef, useEffect } from 'react';
 import ResultButton from './components/ResultButton';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [results, setResults] = useState([]);
@@ -70,6 +71,7 @@ function App() {
         </div>
 
         <Footer />
+        <Analytics/>
       </main>
 
       {showButton && (
