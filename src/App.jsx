@@ -17,13 +17,7 @@ function App() {
           <Player />
         </div>
 
-        <div className="mx-auto my-1 p-8 
-                        bg-gray-200 text-black
-                        dark:bg-gradient-to-t from-slate-900 to-slate-950 dark:text-neutral-200
-                        rounded-lg shadow-lg shadow-black/80">
-
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-2 mx-auto rounded-md">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-2 mx-auto w-full sm:w-3/4 lg: rounded-md">
             <TimerChallenge title="Intro" targetTime={1} />
             <TimerChallenge title="Noob" targetTime={5} />
             <TimerChallenge title="Rookie" targetTime={10} />
@@ -33,7 +27,6 @@ function App() {
             <TimerChallenge title="Master" targetTime={60} />
             <TimerChallenge title="Legend" targetTime={120} />
           </div>
-        </div>
         <Footer />
       </main>
     </div>
